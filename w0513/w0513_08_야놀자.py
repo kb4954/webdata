@@ -27,7 +27,7 @@ url = "https://nol.yanolja.com/"
 browser.get(url)
 time.sleep(2)
 # 1. 호텔/리조트 클릭
-elem = browser.find_element(By.XPATH,"/html/body/div[1]/div/div[3]/div/div[2]/div/div[1]/a[1]/div/span[2]")
+elem = browser.find_element(By.XPATH,"/html/body/div[1]/div/div[3]/div/div[2]/div/div[1]/a[11]/div/span[2]")
 elem.click()
 time.sleep(2)
 
@@ -91,10 +91,6 @@ print("스크롤 내리기 종료")
 # for data in datas:
 #     hotels = data.find("p",{"class":"text-text-neutral-sub typography-body-12-regular"})
 #     print(hotels)
-
-
-
-
 
 
 
